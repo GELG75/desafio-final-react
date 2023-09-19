@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import ListName  from '../components/ListName';
 
-
  const MiApi = () => {
 
     const [users, setUsers] = useState([]);

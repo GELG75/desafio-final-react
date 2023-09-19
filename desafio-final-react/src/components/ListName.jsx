@@ -1,10 +1,7 @@
-
-
 import React, { useEffect, useState } from "react";
 import ListGroup from 'react-bootstrap/ListGroup';
  import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-// import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Buscador from "../components/Buscador";
 
@@ -19,7 +16,7 @@ const ListName = ({ users, onChange, search }) => {
             return 0
 
         })
-        // console.log(sortData)
+     
         setSortData([...users, sortData]);
     }
   
@@ -40,9 +37,6 @@ const ListName = ({ users, onChange, search }) => {
                 </Row>
             </Container>
         </div>
-
-
-
     )
 }
 

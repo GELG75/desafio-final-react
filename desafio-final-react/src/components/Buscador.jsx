@@ -4,12 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 
-const Buscador = ({ onChange, search  }) => { 
-     
-
- 
- 
-    
+const Buscador = ({ onChange, search }) => {
     return (
         <>
             <Navbar expand="lg" className="bg-body-tertiary">
